@@ -1,5 +1,7 @@
 package Task22;
 
+import static java.util.Arrays.*;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

@@ -28,6 +28,7 @@ public class Task6to10 {
 //        Create a list of Integers and map it to the square of every element and collect it to set.
         System.out.println("The square map: ");
         List square=numbers.stream().map(y -> y*y).collect(Collectors.toList());
+//        numbers.stream().map(y -> y*y).forEach(y -> System.out.println(y));
         System.out.println(square);
 
     }

@@ -27,8 +27,12 @@ public class Task25 {
 
 //    Given the list of integers, find the first element of the list using Stream functions?
         System.out.println("The first element is: ");
-        int first = numlist.stream().reduce((a,b) -> a).orElse(null);
-        System.out.println(first);
+        int first1 = numlist.stream().reduce((a,b) -> a).orElse(null);
+        System.out.println(first1);
+
+//        Optional<Integer> first = numlist.stream().reduce((a,b)->a);
+//        System.out.println(first);
+
 
 //    Given a list of integers, find the total number of elements present in the list using Stream functions?
         int counting = (int) numlist.stream().count();
